@@ -1,0 +1,10 @@
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\bin\Debug\AsyncExample.exe.config
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\bin\Debug\AsyncExample.exe
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\bin\Debug\AsyncExample.pdb
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.csprojResolveAssemblyReference.cache
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.Form1.resources
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.Properties.Resources.resources
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.csproj.GenerateResource.Cache
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.csproj.CoreCompileInputs.cache
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.exe
+c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.pdb
