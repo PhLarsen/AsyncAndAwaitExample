@@ -17,7 +17,7 @@ namespace AsyncExample
         {
             InitializeComponent();
         }
-        private async Task<int> CountCharacters()
+        private async Task<int> CountCharactersAsync()
         {
             int count = 0;
             try
@@ -36,12 +36,26 @@ namespace AsyncExample
             }
             return count;
         }
+
+        private int CountCharacters()
+        {
+            int count = 0;
+            using (StreamReader reader = new StreamReader("c:\\AsyncAndAwait.txt"))
+            {
+                string content = reader.ReadToEnd();
+                count = content.Length;
+                Thread.Sleep(5000);
+            }
+            return count;
+        }
+
         private async void btnProcessFile_Click(object sender, EventArgs e)
         {
             
 
             lblCount.Text = "Processing File. Please wait...";
-            int count = await CountCharacters();
+            int count = await CountCharactersAsync();
+            //int count = CountCharacters();
             lblCount.Text = count.ToString() + " characters in file";
         }
     }

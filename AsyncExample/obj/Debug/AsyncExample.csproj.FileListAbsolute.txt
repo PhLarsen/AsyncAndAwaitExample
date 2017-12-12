@@ -8,3 +8,12 @@ c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\
 c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.csproj.CoreCompileInputs.cache
 c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.exe
 c:\users\philip\documents\visual studio 2017\Projects\AsyncExample\AsyncExample\obj\Debug\AsyncExample.pdb
+C:\Users\Philip Larsen\Desktop\AsyncAndAwaitExample\AsyncExample\bin\Debug\AsyncExample.exe.config
+C:\Users\Philip Larsen\Desktop\AsyncAndAwaitExample\AsyncExample\bin\Debug\AsyncExample.exe
+C:\Users\Philip Larsen\Desktop\AsyncAndAwaitExample\AsyncExample\bin\Debug\AsyncExample.pdb
+C:\Users\Philip Larsen\Desktop\AsyncAndAwaitExample\AsyncExample\obj\Debug\AsyncExample.csprojResolveAssemblyReference.cache
+C:\Users\Philip Larsen\Desktop\AsyncAndAwaitExample\AsyncExample\obj\Debug\AsyncExample.Form1.resources
+C:\Users\Philip Larsen\Desktop\AsyncAndAwaitExample\AsyncExample\obj\Debug\AsyncExample.Properties.Resources.resources
+C:\Users\Philip Larsen\Desktop\AsyncAndAwaitExample\AsyncExample\obj\Debug\AsyncExample.csproj.GenerateResource.Cache
+C:\Users\Philip Larsen\Desktop\AsyncAndAwaitExample\AsyncExample\obj\Debug\AsyncExample.exe
+C:\Users\Philip Larsen\Desktop\AsyncAndAwaitExample\AsyncExample\obj\Debug\AsyncExample.pdb
