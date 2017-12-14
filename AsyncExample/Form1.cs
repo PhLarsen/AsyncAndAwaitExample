@@ -26,7 +26,7 @@ namespace AsyncExample
                 {
                     string content = reader.ReadToEnd();
                     count = content.Length;
-                    await Task.Delay(5000);
+                    await Task.Delay(5000); // "Do expensive work"
                 }
             }
             catch (FileNotFoundException)
@@ -46,7 +46,7 @@ namespace AsyncExample
                 {
                     string content = reader.ReadToEnd();
                     count = content.Length;
-                    Thread.Sleep(5000);
+                    Thread.Sleep(5000); // "Do expensive work"
                 }
                 
             }
