@@ -29,7 +29,7 @@ namespace AsyncExample
                     await Task.Delay(5000);
                 }
             }
-            catch (FileNotFoundException ex)
+            catch (FileNotFoundException)
             {
 
                 MessageBox.Show("Couldn't find  the file");
@@ -40,11 +40,20 @@ namespace AsyncExample
         private int CountCharacters()
         {
             int count = 0;
-            using (StreamReader reader = new StreamReader("c:\\AsyncAndAwait.txt"))
+            try
             {
-                string content = reader.ReadToEnd();
-                count = content.Length;
-                Thread.Sleep(5000);
+                using (StreamReader reader = new StreamReader("c:\\AsyncAndAwait.txt"))
+                {
+                    string content = reader.ReadToEnd();
+                    count = content.Length;
+                    Thread.Sleep(5000);
+                }
+                
+            }
+            catch (FileNotFoundException)
+            {
+
+                MessageBox.Show("Couldn't find  the file");
             }
             return count;
         }
@@ -55,8 +64,14 @@ namespace AsyncExample
 
             lblCount.Text = "Processing File. Please wait...";
             int count = await CountCharactersAsync();
-            //int count = CountCharacters();
             lblCount.Text = count.ToString() + " characters in file";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lblCountNonAsync.Text = "Processing File. Please wait...";
+            int count = CountCharacters();
+            lblCountNonAsync.Text = count.ToString() + " characters in file";
         }
     }
 }
